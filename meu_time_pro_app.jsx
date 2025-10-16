@@ -8,7 +8,6 @@ import React, { useState, useRef, useEffect } from "react";
 //  - framer-motion (optional for small animations): npm i framer-motion
 // Usage: drop this file into a React app (Vite / CRA). Tailwind recommended but plain CSS works too.
 
-export default function MeuTimePro() {
   // App state
   const [teamName, setTeamName] = useState("Meu Time Pro");
   const [primaryColor, setPrimaryColor] = useState("#00A65A"); // verde
